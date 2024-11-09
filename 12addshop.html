@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;
+        padding: 0;}
+        body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-image:url(img/registerbgc.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        fieldset{padding: 20px;
+        border-radius: 5px;
+    /* background-color: white; */
+height: 56vh;
+color: white;
+font-weight: 800;}
+h1{
+    color: white;
+}
+
+#submit{
+    background-color: green;
+    width: 50px;
+    color: white;
+}
+
+    </style>
+</head>
+
+<body>
+    <form action="setupyourshop.html">
+        <fieldset>
+            <legend>
+                <h1>Register Your Shop</h1>
+            </legend>
+            <p id="p"> fill the following details to register your shop </p><br><br>
+            Name: <input type="text" required placeholder="enter your shop name">
+            <br><br>
+            symbol: <input type="file" name="" id="">
+            <br><br>
+            Owner name: <input required type="text" placeholder="Enter your name">
+            <br> <br>
+            Phone no.: <input type="number" required placeholder="+91-Enter your phone number" name="" id="" size="10">
+            <br><br>
+            Email: <input type="email" required placeholder="xxxxxx@gmail.com" name="" id=""><br><br>
+            Address: <address>
+                <input type="text" required placeholder="Enter address">
+            </address ><br>
+           <center><input style="width: 60px;height: 23px;" type="submit" value="submit" id="submit"></center> 
+        </fieldset>
+    </form>
+</body>
+
+</html>

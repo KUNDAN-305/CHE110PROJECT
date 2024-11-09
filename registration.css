@@ -1,0 +1,24 @@
+*{
+    margin:0 ;padding: 0;
+}
+.textposition{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 290px;height: 4vh;
+    background-color: green;
+    font-size: large;
+}
+fieldset{
+    height:80vh;padding: 10px;
+    margin:auto ; font-size: larger;
+}
+form{
+    background-color:white;
+}
+body{
+    background-color: green
+    ;
+}
